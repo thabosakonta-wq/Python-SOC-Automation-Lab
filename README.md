@@ -34,6 +34,16 @@ TA0001| Initial Access
 TA0004| Privilege Escalation
 TA0003| Persistence
 
+## Reports
+
+### MITRE ATT&CK Mapping
+
+Maps detections to ATT&CK techniques and tactics.
+
+### SOC Investigation Report
+
+Documents findings, event analysis, and attack-chain observations from simulated security events.
+
 Technologies Used
 
 - Python 3
