@@ -31,7 +31,7 @@ Correlates multiple security events and generates severity-based alerts to detec
 ## MITRE ATT&CK Coverage
 
 | Technique | Description |
-|-----------|-------------|
+|----------|-------------|
 | T1110 | Brute Force |
 | T1078 | Valid Accounts |
 | T1136 | Create Account |
@@ -93,6 +93,7 @@ Python-SOC-Automation-Lab/
 
 └── README.md
 
+
 ---
 
 ## Screenshots
@@ -114,7 +115,6 @@ Python-SOC-Automation-Lab/
 
 ### SOC Alert Engine (Attack Chain Detection)
 ![SOC Alert Engine](screenshots/soc_alert_engine.png)
-
 ---
 
 ## Sample Output
