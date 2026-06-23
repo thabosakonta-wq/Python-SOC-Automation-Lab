@@ -85,6 +85,7 @@ Python-SOC-Automation-Lab/
 
 └── README.md
 
+ HEAD
 Screenshots
 
 Failed Login Detection
@@ -103,6 +104,22 @@ Account Creation Detection
 
 "Account Creation Detection" (screenshots/account_creation_detector.png)
 
+Future Enhancements
+
+- Real-Time Log Monitoring
+- JSON Alert Export
+- Threat Intelligence Integration
+- Email Alerting
+- Dashboard Visualization
+- SIEM Integration
+- Automated Incident Reporting
+
+## Screenshots
+
+### Failed Login Detection
+![Failed Login Detection](screenshots/failed_login_detector.png)
+ 92d6842 (Resolve merge conflict)
+
 ---
 
 SOC Alert Engine (Attack Chain Detection)
@@ -111,10 +128,10 @@ SOC Alert Engine (Attack Chain Detection)
 
 Sample Output
 
-=============================================
- PYTHON SOC ALERT ENGINE
-=============================================
 
+ PYTHON SOC ALERT
+
+ HEAD
 Failed Logins: 2
 Privileged Events: 1
 Account Creations: 1
@@ -122,6 +139,10 @@ Account Creations: 1
 Overall Severity: CRITICAL
 
 [POTENTIAL ATTACK CHAIN DETECTED]
+
+### SOC Alert Engine (Attack Chain Detection)
+![SOC Alert Engine](screenshots/soc_alert_engine.png)
+>>>>>>> 92d6842 (Resolve merge conflict)
 
 Author
 
