@@ -1,4 +1,3 @@
-Python SOC Automation Lab
 A cybersecurity project focused on Security Operations Center (SOC) automation, threat detection, event correlation, and MITRE ATT&CK mapping using simulated Windows Security Event Logs.
 
 Overview
@@ -127,4 +126,4 @@ GitHub: https://github.com/thabosakonta-wq
 LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748
 
 License
-This project is provided for educational and portfolio purposes
+This project is provided for educational and portfolio purposes.
