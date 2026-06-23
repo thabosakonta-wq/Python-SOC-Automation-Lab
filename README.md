@@ -1,21 +1,4 @@
-# Python SOC Automation Lab
-
-A cybersecurity project focused on Security Operations Center (SOC) automation, threat detection, event correlation, and MITRE ATT&CK mapping using simulated Windows Security Event Logs.
-
----
-
-## Overview
-
-This lab demonstrates how SOC analysts detect suspicious authentication activity, privileged account usage, and account creation events. It correlates multiple security signals to identify potential attack chains and generate severity-based alerts.
-
-The project simulates real-world SOC workflows including log analysis, detection engineering, incident correlation, and MITRE ATT&CK mapping.
-
----
-
-## Features
-
-### Failed Login Detection
-Detects repeated failed authenticatPython SOC Automation Lab
+Python SOC Automation Lab
 
 A cybersecurity project focused on Security Operations Center (SOC) automation, threat detection, event correlation, and MITRE ATT&CK mapping using simulated Windows Security Event Logs.
 
