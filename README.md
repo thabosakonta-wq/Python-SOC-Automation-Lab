@@ -1,42 +1,47 @@
-Python SOC Automation Lab
+# Python SOC Automation Lab
 
 A cybersecurity project focused on Security Operations Center (SOC) automation, threat detection, event correlation, and MITRE ATT&CK mapping using simulated Windows Security Event Logs.
 
-Overview
+---
+
+## Overview
 
 This lab demonstrates how SOC analysts detect suspicious authentication activity, privileged account usage, and account creation events. It correlates multiple security signals to identify potential attack chains and generate severity-based alerts.
 
 The project simulates real-world SOC workflows including log analysis, detection engineering, incident correlation, and MITRE ATT&CK mapping.
 
-Features
+---
 
-Failed Login Detection
+## Features
 
+### Failed Login Detection
 Detects repeated failed authentication attempts that may indicate brute-force attacks or credential abuse.
 
-Privileged Activity Detection
-
+### Privileged Activity Detection
 Detects privileged account usage and administrative logons that may indicate privilege escalation or misuse of valid accounts.
 
-Account Creation Detection
+### Account Creation Detection
+Identifies newly created user accounts that may indicate persistence or unauthorized provisioning.
 
-Identifies newly created user accounts that may indicate persistence mechanisms or unauthorized account provisioning.
-
-SOC Alert Correlation Engine
-
+### SOC Alert Correlation Engine
 Correlates multiple security events and generates severity-based alerts to detect potential attack chains.
 
-MITRE ATT&CK Coverage
+---
 
-Technique| Description
-T1110| Brute Force
-T1078| Valid Accounts
-T1136| Create Account
-TA0001| Initial Access
-TA0004| Privilege Escalation
-TA0003| Persistence
+## MITRE ATT&CK Coverage
 
-Technologies Used
+| Technique | Description |
+|-----------|-------------|
+| T1110 | Brute Force |
+| T1078 | Valid Accounts |
+| T1136 | Create Account |
+| TA0001 | Initial Access |
+| TA0004 | Privilege Escalation |
+| TA0003 | Persistence |
+
+---
+
+## Technologies Used
 
 - Python 3
 - Linux / Termux
@@ -48,7 +53,9 @@ Technologies Used
 - Security Monitoring
 - Git & GitHub
 
-Learning Outcomes
+---
+
+## Learning Outcomes
 
 - Security Event Monitoring
 - Log Analysis
@@ -59,7 +66,9 @@ Learning Outcomes
 - SOC Operations
 - Incident Investigation
 
-Project Structure
+---
+
+## Project Structure
 
 Python-SOC-Automation-Lab/
 
@@ -71,8 +80,7 @@ Python-SOC-Automation-Lab/
 
 │   └── python_soc_investigation_report.txt
 
-├── screenshots/
-
+├── screenshot
 ├── scripts/
 
 │   ├── failed_login_detector.py
@@ -85,53 +93,37 @@ Python-SOC-Automation-Lab/
 
 └── README.md
 
- HEAD
-Screenshots
-
-Failed Login Detection
-
-"Failed Login Detection" (screenshots/failed_login_detector.png)
-
 ---
-
-Privileged Activity Detection
-
-"Privileged Activity Detection" (screenshots/privileged_activity_detector.png)
-
----
-
-Account Creation Detection
-
-"Account Creation Detection" (screenshots/account_creation_detector.png)
-
-Future Enhancements
-
-- Real-Time Log Monitoring
-- JSON Alert Export
-- Threat Intelligence Integration
-- Email Alerting
-- Dashboard Visualization
-- SIEM Integration
-- Automated Incident Reporting
 
 ## Screenshots
 
 ### Failed Login Detection
 ![Failed Login Detection](screenshots/failed_login_detector.png)
- 92d6842 (Resolve merge conflict)
 
 ---
 
-SOC Alert Engine (Attack Chain Detection)
+### Privileged Activity Detection
+![Privileged Activity Detection](screenshots/privileged_activity_detector.png)
 
-"SOC Alert Engine" (screenshots/soc_alert_engine.png)
+---
 
-Sample Output
+### Account Creation Detection
+![Account Creation Detection](screenshots/account_creation_detector.png)
 
+---
 
- PYTHON SOC ALERT
+### SOC Alert Engine (Attack Chain Detection)
+![SOC Alert Engine](screenshots/soc_alert_engine.png)
 
- HEAD
+---
+
+## Sample Output
+
+```text
+=============================================
+ PYTHON SOC ALERT ENGINE
+=============================================
+
 Failed Logins: 2
 Privileged Events: 1
 Account Creations: 1
@@ -139,10 +131,6 @@ Account Creations: 1
 Overall Severity: CRITICAL
 
 [POTENTIAL ATTACK CHAIN DETECTED]
-
-### SOC Alert Engine (Attack Chain Detection)
-![SOC Alert Engine](screenshots/soc_alert_engine.png)
->>>>>>> 92d6842 (Resolve merge conflict)
 
 Author
 
@@ -155,3 +143,11 @@ LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748
 License
 
 This project is provided for educational and portfolio purposes.
+---
+
+# 🔧 NOW APPLY IT
+
+Run:
+
+```bash
+nano README.md
