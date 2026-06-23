@@ -1,0 +1,42 @@
+PYTHON SOC AUTOMATION LAB
+INVESTIGATION REPORT
+
+Summary
+-------
+Multiple suspicious events were identified.
+
+Findings
+--------
+Event ID 4625
+Failed Login Attempts
+
+Event ID 4672
+Privileged Activity
+
+Event ID 4720
+Account Creation
+
+Assessment
+----------
+Potential attack chain observed.
+
+Failed Logins
+→ Privileged Activity
+→ Account Creation
+
+MITRE ATT&CK Mapping
+--------------------
+T1110 - Brute Force
+T1078 - Valid Accounts
+T1136 - Create Account
+
+Severity
+--------
+CRITICAL
+
+Recommended Actions
+-------------------
+Investigate account activity
+Review authentication logs
+Validate newly created accounts
+Monitor privileged actions
