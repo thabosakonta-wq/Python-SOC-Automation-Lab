@@ -107,7 +107,8 @@ Event Correlation
 Incident Investigation
 SOC Operations
 MITRE ATT&CK Mapping
-Author
+
+## Author
 Thabo Sakonta
 Microsoft Certified Security Operations Analyst (SC-200)
 GitHub: https://github.com/thabosakonta-wq⁠�
