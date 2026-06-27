@@ -91,13 +91,13 @@ Python-SOC-Automation-Lab
 
 Screenshots
 Failed Login Detector
-�
+
 Privileged Activity Detector
-�
+
 Account Creation Detector
-�
+
 SOC Alert Engine
-�
+
 Learning Outcomes
 Python Log Parsing
 Detection Engineering
@@ -111,7 +111,7 @@ MITRE ATT&CK Mapping
 Author
 Thabo Sakonta
 Microsoft Certified Security Operations Analyst (SC-200)
-GitHub: https://github.com/thabosakonta-wq⁠�
-LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748⁠�
+GitHub: https://github.com/thabosakonta-wq⁠
+LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748⁠
 License
 This project is provided for educational and portfolio purposes.
