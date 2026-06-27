@@ -1,121 +1,116 @@
-Python SOC Automation Lab
+# Python SOC Automation Lab
 
-A cybersecurity project focused on Security Operations Center (SOC) automation, threat detection, event correlation, and MITRE ATT&CK mapping using simulated Windows Security Event Logs.
+A Python-based Security Operations Center (SOC) automation project designed to demonstrate log analysis, detection engineering, alert correlation, incident investigation, and MITRE ATT&CK mapping.
 
-Overview
+---
 
-This lab demonstrates how SOC analysts detect suspicious authentication activity, privileged account usage, and account creation events. It correlates multiple security signals to identify potential attack chains and generate severity-based alerts.
+## Overview
 
-The project simulates real-world SOC workflows including log analysis, detection engineering, incident correlation, and MITRE ATT&CK mapping.
+This project simulates a SOC workflow using Python scripts to analyze Windows security events, identify suspicious activity, generate alerts, and support incident investigations.
 
-Features
+The lab demonstrates how security analysts automate repetitive monitoring tasks and investigate security events using Python.
 
-Failed Login Detection
+---
 
-Detects repeated failed authentication attempts that may indicate brute-force attacks or credential abuse.
+## Features
 
-Privileged Activity Detection
+### Failed Login Detection
 
-Detects privileged account usage and administrative logons that may indicate privilege escalation or misuse of valid accounts.
+- Detects Windows Event ID 4625
+- Identifies repeated authentication failures
+- Supports brute-force detection scenarios
 
-Account Creation Detection
+### Privileged Activity Detection
 
-Identifies newly created user accounts that may indicate persistence or unauthorized provisioning.
+- Detects Windows Event ID 4672
+- Identifies elevated account activity
+- Highlights privilege escalation indicators
 
-SOC Alert Correlation Engine
+### Account Creation Detection
 
-Correlates multiple security events and generates severity-based alerts to detect potential attack chains.
+- Detects Windows Event ID 4720
+- Identifies newly created user accounts
+- Supports persistence detection scenarios
 
-MITRE ATT&CK Coverage
+### SOC Alert Engine
 
-Technique| Description
-T1110| Brute Force
-T1078| Valid Accounts
-T1136| Create Account
-TA0001| Initial Access
-TA0004| Privilege Escalation
-TA0003| Persistence
+- Correlates multiple security events
+- Assigns severity ratings
+- Detects potential attack chains
+- Produces consolidated alerts
 
-Technologies Used
+### Incident Investigation
 
-- Python 3
-- Linux / Termux
-- Windows Security Event Simulation
-- Log Analysis
-- Detection Engineering
-- MITRE ATT&CK Framework
-- Threat Hunting
-- Security Monitoring
-- Git & GitHub
+- Documents findings
+- Assesses severity
+- Provides response recommendations
 
-Learning Outcomes
+---
 
-- Security Event Monitoring
-- Log Analysis
-- Threat Detection
-- Event Correlation
-- Detection Engineering
-- MITRE ATT&CK Mapping
-- SOC Operations
-- Incident Investigation
+## MITRE ATT&CK Coverage
 
-Project Structure
+| Event ID | Technique | Description |
+|----------|-----------|-------------|
+| 4625 | T1110 | Brute Force |
+| 4672 | T1078 | Valid Accounts |
+| 4720 | T1136 | Create Account |
 
-Python-SOC-Automation-Lab/
-├── logs/
-├── reports/
+---
+
+## Technologies Used
+
+- Python
+- Linux
+- Termux
+- Git
+- GitHub
+- MITRE ATT&CK
+
+---
+
+## Project Structure
+
+```text
+Python-SOC-Automation-Lab
+├── logs
+│   └── security.log
+├── reports
 │   ├── mitre_mapping.md
 │   └── python_soc_investigation_report.txt
-├── screenshots/
-├── scripts/
+├── screenshots
+│   ├── account_creation_detector.png
+│   ├── failed_login_detector.png
+│   ├── privileged_activity_detector.png
+│   └── soc_alert_engine.png
+├── scripts
+│   ├── account_creation_detector.py
 │   ├── failed_login_detector.py
 │   ├── privileged_activity_detector.py
-│   ├── account_creation_detector.py
 │   └── soc_alert_engine.py
 └── README.md
 
 Screenshots
-
-Failed Login Detection
-
-"Failed Login Detection" (screenshots/failed_login_detector.png)
-
-Privileged Activity Detection
-
-"Privileged Activity Detection" (screenshots/privileged_activity_detector.png)
-
-Account Creation Detection
-
-"Account Creation Detection" (screenshots/account_creation_detector.png)
-
-SOC Alert Engine (Attack Chain Detection)
-
-"SOC Alert Engine" (screenshots/soc_alert_engine.png)
-
-Sample Output
-
-=============================================
- PYTHON SOC ALERT ENGINE
-=============================================
-
-Failed Logins: 2
-Privileged Events: 1
-Account Creations: 1
-
-Overall Severity: CRITICAL
-
-[POTENTIAL ATTACK CHAIN DETECTED]
-
+Failed Login Detector
+�
+Privileged Activity Detector
+�
+Account Creation Detector
+�
+SOC Alert Engine
+�
+Learning Outcomes
+Python Log Parsing
+Detection Engineering
+Security Monitoring
+Threat Detection
+Event Correlation
+Incident Investigation
+SOC Operations
+MITRE ATT&CK Mapping
 Author
-
 Thabo Sakonta
-
 Microsoft Certified Security Operations Analyst (SC-200)
-
-GitHub: https://github.com/thabosakonta-wq
-
-LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748
-
+GitHub: https://github.com/thabosakonta-wq⁠�
+LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748⁠�
 License
-
 This project is provided for educational and portfolio purposes.
