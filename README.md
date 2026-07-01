@@ -103,24 +103,30 @@ Python-SOC-Automation-Lab
 ### SOC Alert Engine
 ![SOC Alert Engine](screenshots/soc_alert_engine.png)
 
-Learning Outcomes
-Python Log Parsing
-Detection Engineering
-Security Monitoring
-Threat Detection
-Event Correlation
-Incident Investigation
-SOC Operations
-MITRE ATT&CK Mapping
+## Learning Outcomes
 
-Author
-Thabo Sakonta
+- Python Log Parsing  
+- Detection Engineering  
+- Security Monitoring  
+- Threat Detection  
+- Event Correlation  
+- Incident Investigation  
+- SOC Operations  
+- MITRE ATT&CK Mapping  
+
+---
+
+## Author
+
+**Thabo Sakonta**
 
 Microsoft Certified Security Operations Analyst (SC-200)
 
-GitHub: https://github.com/thabosakonta-wq
+- GitHub: https://github.com/thabosakonta-wq  
+- LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748  
 
-LinkedIn: https://www.linkedin.com/in/thabo-sakonta-377a3748
+---
 
-License
+## License
+
 This project is intended for educational, research, and portfolio demonstration purposes.
