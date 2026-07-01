@@ -89,14 +89,19 @@ Python-SOC-Automation-Lab
 │   └── soc_alert_engine.py
 └── README.md
 
-Screenshots
-Failed Login Detector
+## Screenshots
 
-Privileged Activity Detector
+### Failed Login Detector
+![Failed Login Detector](screenshots/failed_login_detector.png)
 
-Account Creation Detector
+### Privileged Activity Detector
+![Privileged Activity Detector](screenshots/privileged_activity_detector.png)
 
-SOC Alert Engine
+### Account Creation Detector
+![Account Creation Detector](screenshots/account_creation_detector.png)
+
+### SOC Alert Engine
+![SOC Alert Engine](screenshots/soc_alert_engine.png)
 
 Learning Outcomes
 Python Log Parsing
