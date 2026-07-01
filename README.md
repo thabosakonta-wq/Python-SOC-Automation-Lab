@@ -92,16 +92,16 @@ Python-SOC-Automation-Lab
 ## Screenshots
 
 ### Failed Login Detector
-![Failed Login Detector](screenshots/failed_login_detector.png)
+![Failed Login Detector](https://raw.githubusercontent.com/thabosakonta-wq/Python-SOC-Automation-Lab/main/screenshots/failed_login_detector.png)
 
 ### Privileged Activity Detector
-![Privileged Activity Detector](screenshots/privileged_activity_detector.png)
+![Privileged Activity Detector](https://raw.githubusercontent.com/thabosakonta-wq/Python-SOC-Automation-Lab/main/screenshots/privileged_activity_detector.png)
 
 ### Account Creation Detector
-![Account Creation Detector](screenshots/account_creation_detector.png)
+![Account Creation Detector](https://raw.githubusercontent.com/thabosakonta-wq/Python-SOC-Automation-Lab/main/screenshots/account_creation_detector.png)
 
 ### SOC Alert Engine
-![SOC Alert Engine](screenshots/soc_alert_engine.png)
+![SOC Alert Engine](https://raw.githubusercontent.com/thabosakonta-wq/Python-SOC-Automation-Lab/main/screenshots/soc_alert_engine.png)
 
 ## Learning Outcomes
 
