@@ -118,7 +118,7 @@ Python-SOC-Automation-Lab
 
 ## Author
 
-**Thabo Sakonta**
+Thabo Sakonta
 
 Microsoft Certified Security Operations Analyst (SC-200)
 
