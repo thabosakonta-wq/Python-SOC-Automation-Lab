@@ -88,6 +88,7 @@ Python-SOC-Automation-Lab
 │   ├── privileged_activity_detector.py
 │   └── soc_alert_engine.py
 └── README.md
+```
 
 ## Screenshots
 
