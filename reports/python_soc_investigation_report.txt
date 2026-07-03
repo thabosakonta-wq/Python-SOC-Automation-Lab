@@ -30,6 +30,24 @@ MITRE ATT&CK Mapping
 T1110 - Brute Force
 T1078 - Valid Accounts
 T1136 - Create Account
+ATT&CK Techniques
+
+T1110  Brute Force
+T1078  Valid Accounts
+T1136  Create Account
+
+ATT&CK Tactics
+
+Credential Access
+Privilege Escalation
+Persistence
+
+Kill Chain Phase
+
+Reconnaissance
+Credential Access
+Privilege Escalation
+Persistence
 
 Severity
 --------
