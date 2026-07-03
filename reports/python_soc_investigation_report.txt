@@ -18,7 +18,8 @@ Account Creation
 
 Assessment
 ----------
-Potential attack chain observed.
+Potential attack chain detected based on correlated Windows Security Events.
+Analyst validation is recommended before confirming compromise.
 
 Failed Logins
 → Privileged Activity
