@@ -12,6 +12,29 @@ The lab demonstrates how security analysts automate repetitive monitoring tasks 
 
 ---
 
+# Objectives
+
+- Demonstrate SOC automation using Python.
+- Automate Windows Security Event Log analysis.
+- Detect suspicious authentication activity.
+- Correlate multiple security events into incidents.
+- Produce professional SOC investigation reports.
+- Demonstrate practical SOC Analyst automation skills.
+
+---
+
+# Future Enhancements
+
+- Microsoft Sentinel Integration
+- Microsoft Defender XDR Integration
+- Elastic SIEM Integration
+- Splunk Integration
+- Sysmon Log Support
+- Automated IOC Detection
+- Threat Intelligence Enrichment
+
+---
+
 ## Features
 
 ### Failed Login Detection
@@ -57,6 +80,17 @@ The lab demonstrates how security analysts automate repetitive monitoring tasks 
 
 ---
 
+# Detection Coverage
+
+| Detection | Event ID | Severity |
+|-----------|----------|----------|
+| Failed Login Attempts | 4625 | High |
+| Privileged Activity | 4672 | High |
+| Account Creation | 4720 | Medium |
+| SOC Alert Correlation | Multiple | Critical |
+
+---
+
 ## Technologies Used
 
 - Python
@@ -89,6 +123,16 @@ Python-SOC-Automation-Lab
 │   └── soc_alert_engine.py
 └── README.md
 ```
+
+---
+
+# Reports
+
+- reports/executive_summary.md
+- reports/python_soc_investigation_report.txt
+- reports/mitre_mapping.md
+
+---
 
 ## Screenshots
 
