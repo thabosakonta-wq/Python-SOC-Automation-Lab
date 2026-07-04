@@ -161,6 +161,18 @@ Python-SOC-Automation-Lab
 
 ---
 
+# Future Enhancements
+
+- Microsoft Sentinel Integration
+- Microsoft Defender XDR Integration
+- Elastic SIEM Integration
+- Splunk Integration
+- Sysmon Log Support
+- Automated IOC Detection
+- Threat Intelligence Enrichment
+
+---
+
 ## Author
 
 Thabo Sakonta
